@@ -8,6 +8,33 @@ body {
 
 /*************************************************/
 
+.odstavec1::first-letter {
+	color: blue;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.odstavec2::first-line {
+	font-size: 25px;
+	color: blueviolet;
+}
+
+h1::before {
+	content: "*";
+	color: red;
+}
+
+h1::after {
+	content:"";
+	display: block;
+	width: 150px;
+	height: 10px;
+	background-color: blue;
+}
+
+/* použije se na webu Islandu, potřeba dát do pozadí */
+
+
 /*
 CSS Selektory:
 

@@ -40,21 +40,12 @@ body {
 
 /* ------------------------------------------ */
 
-.kolecko {
-	transition: 0.3s;
+.tlacitko{
+	box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.5);
+	transition: 0.2s;
 }
 
-.kolecko:hover { 
-	border-radius: 50%;
-}
-
-.ctverecek {
-	transition: 0.3s;
-}
-
-.ctverecek:hover {
-	background-color: rgb(231, 76, 60);
-	width: 1000px;
-	opacity: 0.5;
-	height: 1000px;
+.tlacitko:active {
+	box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+	transform: translate(4px, 7px);
 }
